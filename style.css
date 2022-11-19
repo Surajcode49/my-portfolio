@@ -1,0 +1,471 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+
+.main {
+  display: flex;
+  height: 4.8rem;
+  margin-left: 1px;
+  margin-top: -30px;
+}
+
+body {
+  background: linear-gradient(to right, #370302 0%, black 100%);
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  height: 10px;
+  color: black;
+  cursor: pointer;
+  border-radius: 20px;
+}
+
+nav ul li {
+  display: flex;
+  margin-right: 200px;
+  margin-top: -65px;
+  text-decoration: none;
+  height: 60px;
+  margin-left: 120px;
+  color: beige;
+}
+
+nav ul li a {
+  display: flex;
+  text-decoration: none;
+  color: rgb(202, 225, 104);
+  justify-content: center;
+}
+
+.sidebar {
+  color: rgb(243, 133, 16);
+  margin-top: 30px;
+  margin-left: 2px;
+  font-size: xx-large;
+}
+.sidebar {
+  background-color: rgb(84, 116, 110);
+  border-radius: 10px;
+  height: 75px;
+}
+
+.container {
+  padding-top: 60px;
+  margin-left: 2px;
+  display: flex;
+  height: 40rem;
+  color: white;
+  justify-content: start;
+  font-size: xx-large;
+}
+
+.image {
+  position: relative;
+  right: -10px;
+  border-radius: 120px;
+
+}
+.image img{
+    display: flex;
+    margin: 100px;
+}
+
+.name {
+  position: relative;
+  left: 200px;
+  color: rgb(212, 239, 230);
+  font-size: 10vh;
+
+  /*background: -webkit-linear-gradient(black, rgb(42, 75, 84)); */
+}
+
+.det {
+  padding: 110px;
+   
+  font-size: larger;
+}
+
+
+
+.page {
+  background-color: blueviolet;
+}
+
+.skill span {
+  display: flex;
+  justify-content: center;
+  color: yellowgreen;
+  font-size: 2em;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  margin-left: 100px;
+  
+  color: rgb(71, 5, 106);
+}
+
+.img1 {
+  display: flex;
+  height: 6rem;
+  padding: 40px;
+}
+
+.img2 {
+  display: flex;
+  height: 6rem;
+  padding: 40px;
+}
+
+.img3 {
+  display: flex;
+  height: 6rem;
+  padding: 40px;
+}
+
+.img4 {
+  display: flex;
+  height: 6rem;
+  padding: 40px;
+}
+
+.logo1 {
+  display: flex;
+  margin-top: 2px;
+   color:rgb(71, 5, 106);
+  margin-left: 25px;
+}
+
+.img5 {
+  display: flex;
+  height: 6rem;
+  padding: 20px;
+}
+
+.img6 {
+  display: flex;
+  height: 6rem;
+  padding: 20px;
+}
+
+.img7 {
+  display: flex;
+  height: 6rem;
+  padding: 20px;
+}
+
+.img8 {
+  display: flex;
+  height: 6rem;
+  padding: 20px;
+}
+
+.img9 {
+  display: flex;
+  height: 6rem;
+  padding: 20px;
+}
+
+.page {
+  color: rgb(251, 243, 243);
+  display: flex;
+  flex-direction: row;
+  height: 6rem;
+  justify-content: center;
+  justify-content: space-between;
+}
+
+.media {
+  display: flex;
+
+  justify-content: end;
+
+  margin-right: 20px;
+}
+
+.media span {
+  display: flex;
+  justify-content: end;
+  margin: 10px;
+  margin-top: -30px;
+  margin-right: 20px;
+
+}
+
+.media a {
+  display: flex;
+  height: 2px;
+  justify-content: end;
+   text-decoration: none;
+    justify-content: space-around;
+    
+    padding-left: 10px;
+  color: rgba(6, 191, 74, 0.992);
+}
+
+.media span {
+  display: flex;
+  height: 2px;
+
+}
+
+.col-lg-6 {
+  background-color: rgb(84, 116, 110);
+}
+
+.suraj {
+  display: flex;
+  background-color: rgb(239, 53, 11);
+  color: blue;
+  padding: 10px;
+  margin-top: 4px;
+  justify-content: center;
+  font-size: 4vh;
+  text-decoration: none;
+
+}
+
+.suraj span {
+  display: flex;
+  margin-left: 10px;
+
+
+
+}
+
+.suraj i {
+  border-radius: 5px;
+  color: black;
+  background-color: red;
+  animation: hutt 1.5s linear infinite;
+}
+
+@keyframes hutt {
+  0% {
+    transform: scale(1);
+    opacity: 0;
+  }
+
+  50% {
+    transform: scale(1.3);
+    opacity: 1;
+  }
+
+  100% {
+    transform: scale(1);
+    opacity: 0;
+  }
+}
+
+/* contact html */
+
+.contt {
+  background-color: wheat;
+  text-align: center;
+  height: 100vh;
+  width: 200vh;
+  margin-left: 50px;
+}
+
+
+.contt h1 {
+  text-align: center;
+
+}
+
+.download {
+  background-color: rgba(241, 19, 160, 0.674);
+  color: white;
+  display: flex;
+  justify-content: end;
+  margin-bottom: 15px;
+  font-weight: 100;
+  font-size: 30px;
+  text-decoration: none;
+
+  padding-bottom: 10px;
+  padding-right: 12px;
+
+
+}
+
+
+.ress {
+  background-color: rgba(239, 219, 232, 0.674);
+  display: flex;
+  justify-content: center;
+}
+
+#btnresume {
+  text-decoration: none;
+  color: rgb(5, 96, 104);
+  background-color: rgb(1, 23, 34);
+  border-radius: 5px;
+  font-weight: 100;
+  font-size: 20px;
+}
+
+.suraj p {
+  display: flex;
+
+  font-size: 4vh;
+  margin: 4px;
+
+  text-decoration: none;
+  margin-left: 10px;
+}
+
+@media only screen and (max-width:600px){
+    .sidebar {
+      background-color: black;
+     font-size: xx-small;
+    height:40px;
+  }
+}
+  
+@media only screen and (max-width:600px){
+  nav ul {
+    display: flex;
+    
+    list-style-type: none;
+    height: 5px;
+    color: black;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+}
+@media  only screen and  (max-width:600px){
+  nav ul li {
+    display: flex;
+    margin-right:35px;
+    margin-top: -112px;
+    text-decoration: none;
+    height: 6px;
+    margin-left: 107px;
+    color: rgb(223, 220, 245);
+  }
+}
+@media  only screen and  (max-width:600px){
+
+  .name {
+    
+    left: 10px;
+    color: rgb(212, 239, 230);
+    font-size: 4vh;
+
+} 
+
+}
+@media  only screen and  (max-width:600px){
+
+  .image {
+    position: relative;
+     height: 10px;
+     width: 10px;
+        
+
+} 
+
+}
+
+@media only screen and (max-width:600px){
+  body {
+    background: linear-gradient(to right, #230238 0%, black 100%);
+     background-size:600px;
+     background-repeat: no-repeat;
+
+}
+}
+
+@media only screen and (max-width:600px){
+  .logo {
+    display: flex;
+    align-items: center;
+    margin-left: 2px;
+    
+  }
+}
+
+ @media only screen and (max-width:600px){
+  .img1 {
+    
+    height: 2rem;
+    
+  }
+  .img2 {
+    
+    height: 2rem;
+  
+  }
+
+  .img3 {
+    
+    height: 2rem;
+    
+  }
+  .img4 {
+    
+    height:2rem;
+    
+  }  
+
+  .logo1 {
+    display: flex;
+    margin-top: 2px;
+     font-size: 7px;
+    margin-left:-30px;
+  }
+  .img6 {
+    
+    height: 2rem;
+    
+  }
+  .img5 {
+    
+    height: 2rem;
+    
+  }
+
+  .img6 {
+    
+    height: 2rem;
+    
+  }
+  
+  .img7 {
+    
+    height: 2rem;
+  
+  }
+
+ }
+
+
+ @media only screen and (max-width:600px){
+
+  .image img{
+    display: flex;
+     height: 12rem;
+     width: 10rem;
+     margin-left:-130px;
+
+}
+
+ }
+ 
+@media only screen and(max-width:600px){
+  .det {
+    margin-left: 2px;
+    padding: 10px;
+    font-size: larger;
+  }
+  
+}
+ 
